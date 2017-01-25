@@ -5,7 +5,7 @@ class TestIfNumberIsInArray < Minitest::Test
 
 
 	def test_if_array_is_empty_returns_false
-		assert_equal(false,check_number([1,2,3,4,5,6],7))
+		assert_equal(false,check_number([],7))
 	end
 
 	def test_if_user_number_is_in_array_returns_true
